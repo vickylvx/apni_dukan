@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"
+    <title></title>
+</head>
+<body>
+    <header>
+        <nav class="nav1">
+            <div class="left">
+                <div class="switch_btn">
+                    <img src="moon.png" alt="" class="moon">
+                    <img src="sun.png" alt="">
+                    <input type="checkbox" class="virtual_btn"/>
+                    <span class="btn_circle"></span>
+                </div>
+                <span>Welcome to my website</span> 
+                <a href="#">Register </a>or 
+                <a href="#">login</a>
+            </div>
+            <div class="right">
+                <i class="ri-facebook-circle-fill"></i>
+                <i class="ri-instagram-fill"></i>
+                <i class="ri-twitter-x-line"></i>
+                <i class="ri-whatsapp-fill"></i>
+            </div>
+        </nav>
+        <nav class="nav2">
+            <div class="nav2-left">
+                <i class="ri-phone-fill"></i>9856388798
+                <i class="ri-mail-fill"></i>Example@gmail.com
+            </div>
+            <div class="nav2-center">
+                <h1>Apni <span id="span_text">Dukaan</span></h1>
+                <p>Everything for kids world</p>
+            </div>
+            <div class="nav2-right">
+                <i class="ri-headphone-fill"></i>Contact Us
+            </div>
+        </nav>
+        <nav class="nav3">
+            <ul>
+                <li><a href="#"><i class="ri-home-2-fill"></i>Home</a></li>
+                <li><a href="#" onclick="shop()" id="male-shop"><i class="ri-men-line"></i>Trend</a></li>
+                <li><a href="#"><i class="ri-quill-pen-fill"></i>Accessories</a>
+                <ul>
+                    <li><a href="#" ><i class="ri-men-line"></i>Male</a></li>
+                    <li><a href="#"><i class="ri-women-line"></i>Female</a></li>
+                </ul></li>
+                <li><a href="#" id="cart"><i class="ri-shopping-cart-fill" id="open-button"></i>cart</a></li>
+                <i class="ri-search-line"></i><input placeholder="Search....." id="searchbar" name="searchbar" type="text">
+            
+                
+            </ul>
+        </nav>
+        <section class="featured">
+            <div class="featured-text">
+                <button>coming soon</button>
+                <h2>New Arrivals</h2>
+            </div>
+        </section>
+    </header>
+    <section class="latest">
+        <div class="product-intro">
+            <h2>New<span class="span_text1"> Trends</span></h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat! </p>
+        </div>
+        <div class="card-can">
+        <div class="card">
+            <div>
+                <img src="s001.jpg" alt="">
+            </div>
+            <h1>Puma shoes</h1>
+            <span>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+            </span>
+            <p>$500.00</p>
+            <button class="cart_btn">Add to cart</button>
+        </div>
+        <div class="card">
+            <div>
+                <img src="s001.jpg" alt="">
+            </div>
+            <h1>Puma shoes</h1>
+            <span>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+            </span>
+            <p>$500.00</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="card">
+            <div>
+                <img src="s001.jpg" alt="">
+            </div>
+            <h1>Puma shoes</h1>
+            <span>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+            </span>
+            <p>$500.00</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="card">
+            <div>
+                <img src="s001.jpg" alt="">
+            </div>
+            <h1>Puma shoes</h1>
+            <span>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+            </span>
+            <p>$500.00</p>
+            <button>Add to cart</button>
+        </div>
+        </div>
+        <div class="card-can">
+        <div class="card">
+            <div>
+                <img src="s001.jpg" alt="">
+            </div>
+            <h1>Puma shoes</h1>
+            <span>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+            </span>
+            <p>$500.00</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="card">
+            <div>
+                <img src="s001.jpg" alt="">
+            </div>
+            <h1>Puma shoes</h1>
+            <span>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+            </span>
+            <p>$500.00</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="card">
+            <div>
+                <img src="s001.jpg" alt="">
+            </div>
+            <h1>Puma shoes</h1>
+            <span>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+            </span>
+            <p>$500.00</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="card">
+            <div>
+                <img src="custom-nike-dunk-high-by-you-shoes.png" alt="">
+            </div>
+            <h1>Puma shoes</h1>
+            <span>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+            </span>
+            <p>$500.00</p>
+            <button>Add to cart</button>
+        </div>
+        </div>
+    </section>
+    <section class="latest">
+        <div class="product-intro">
+            <h2>Popular<span class="span_text2"> Product</span></h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat! </p>
+        </div>
+        <div class="card-can" id="male-card">
+            <div class="card">
+                <div>
+                    <img src="depositphotos_12746726-stock-photo-fashion-man-wearing-sunglasses-thinking.jpg" alt="">
+                </div>
+                <h1>Puma shoes</h1>
+                <span>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                </span>
+                <p>$500.00</p>
+                <button>Add to cart</button>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="depositphotos_12746726-stock-photo-fashion-man-wearing-sunglasses-thinking.jpg" alt="">
+                </div>
+                <h1>Puma shoes</h1>
+                <span>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                </span>
+                <p>$500.00</p>
+                <button>Add to cart</button>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="depositphotos_12746726-stock-photo-fashion-man-wearing-sunglasses-thinking.jpg" alt="">
+                </div>
+                <h1>Puma shoes</h1>
+                <span>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                </span>
+                <p>$500.00</p>
+                <button>Add to cart</button>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="depositphotos_12746726-stock-photo-fashion-man-wearing-sunglasses-thinking.jpg" alt="">
+                </div>
+                <h1>Puma shoes</h1>
+                <span>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                </span>
+                <p>$500.00</p>
+                <button>Add to cart</button>
+            </div>
+            </div>
+            
+    </section>
+    <section>
+        <div id="side-cart" class="side-cart ">
+            <div class="cart-content">
+                <div class="cart-header">
+                    <i class="ri-shopping-cart-fill";"></i>
+                   <div class="header_title">
+                    <h2>Your cart</h2>
+                    <span class="item_num">4</span>
+                   </div>
+                   <span id="close_button" >&times;</span>
+                </div>
+               
+                <div class="cart-items">
+                    <div class="cart-item">
+                        <div class="remove-item">
+                            <span>&times;</span>
+                        </div>
+                        <div class="item-img">
+                            <img src="iphone.jpg" alt="">
+                        </div>
+                        <div class="item-detail">
+                            <p>Iphone 15pro</p>
+                            <strong>$5000</strong>
+                            <div class="qty">
+                                <span>-</span>
+                                <strong>1</strong>
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-items">
+                    <div class="cart-item">
+                        <div class="remove-item">
+                            <span>&times;</span>
+                        </div>
+                        <div class="item-img">
+                            <img src="iphone.jpg" alt="">
+                        </div>
+                        <div class="item-detail">
+                            <p>Iphone 15pro</p>
+                            <strong>$5000</strong>
+                            <div class="qty">
+                                <span>-</span>
+                                <strong>1</strong>
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-items">
+                    <div class="cart-item">
+                        <div class="remove-item">
+                            <span>&times;</span>
+                        </div>
+                        <div class="item-img">
+                            <img src="iphone.jpg" alt="">
+                        </div>
+                        <div class="item-detail">
+                            <p>Iphone 15pro</p>
+                            <strong>$5000</strong>
+                            <div class="qty">
+                                <span>-</span>
+                                <strong>1</strong>
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-items">
+                    <div class="cart-item">
+                        <div class="remove-item">
+                            <span>&times;</span>
+                        </div>
+                        <div class="item-img">
+                            <img src="iphone.jpg" alt="">
+                        </div>
+                        <div class="item-detail">
+                            <p>Iphone 15pro</p>
+                            <strong>$5000</strong>
+                            <div class="qty">
+                                <span>-</span>
+                                <strong>1</strong>
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-items">
+                    <div class="cart-item">
+                        <div class="remove-item">
+                            <span>&times;</span>
+                        </div>
+                        <div class="item-img">
+                            <img src="iphone.jpg" alt="">
+                        </div>
+                        <div class="item-detail">
+                            <p>Iphone 15pro</p>
+                            <strong>$5000</strong>
+                            <div class="qty">
+                                <span>-</span>
+                                <strong>1</strong>
+                                <span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-action">
+                    <div class="sub-total">
+                    <p>Subtotal</p>
+                    <p>$<span id="Subtotal_price">2000</span></p>
+                    </div>
+                    <button>View Cart</button>
+                    <button>Checkout</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h1>Apni<span> Dukaan</span></h1><br>
+            <p>Everything for is kids world</p>
+        </div>
+        <div>
+            <i class="ri-facebook-circle-fill"></i>
+                <i class="ri-instagram-fill"></i>
+                <i class="ri-twitter-x-line"></i>
+                <i class="ri-whatsapp-fill"></i>
+
+        </div>
+        <div>
+            <p>@2024 copyright all right reserved</p>
+        </div>
+    </footer>
+    
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>    
+ <script src="sc.js"></script>
+</body>
+</html>
